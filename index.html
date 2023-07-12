@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Scooby-Doo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="Logo" src="./src/Imagens/Meu-projeto.svg" alt="Logo Scooby-Doo">
+    </header>
+
+        <main class="selecione-seu-personagem">
+            <section class="personagens">
+                <h1 class="titulo">Escolha seu personagem</h1>
+                    <ul class="lista-de-personagem">
+                        <li class="personagem selecionado" id="salsicha" data-name="salscicha" data-description="Salsicha gosta bastante de biscoitos Scoobys,seu melhor amigo é Scooby">
+                            <img src="./src/Imagens/card-salscicha.jpg" alt="Salsicha">
+                        </li>
+
+                        <li class="personagem" id="fred" data-name="fred" data-description="Fred é um cara corajoso,ele é considerado lider da equipe pela sua famosa frase.">
+                            <img src="./src/Imagens/card-fred.jpg" alt="Fred">
+                        </li>
+
+                        <li class="personagem" id="daphne" data-name="daphne" data-description="Daphne é de uma familia rica,ela tem um gosto muito grande por moda.">
+                            <img src="./src/Imagens/card-daphne.jpg" alt="Daphne">
+                        </li>
+
+                        <li class="personagem" id="velma" data-name="velma" data-description="Velma é uma mulher corajosa,é sempre a primeira da equipe a desvendar o misterio.">
+                            <img src="./src/Imagens/card-velma.jpg" alt="Velma">
+                        </li>
+
+                        <li class="personagem" id="scooby" data-name="scooby" data-description="Scooby é um cachorro medroso,ama biscoitos Scoobys,seu melhor amigo é Salsicha">
+                            <img src="./src/Imagens/card-scooby.jpg" alt="Scooby">
+                        </li>
+
+                    </ul>
+            </section>
+            <section class="personagens-selecionado">
+                <img class="personagem-grande" src="./src/Imagens/SalsichaNoBg.png" alt="Personagem Selecionado">
+                <div class="informacoes-personagem">
+                    <h2 class="nome-personagem" id="nome-personagem">salsicha
+                    </h2>
+                    <p class="descricao-personagem" id="descricao-personagem">Salsicha gosta bastante de biscoitos Scoobys,seu melhor amigo é Scooby
+                    </p>
+                </div>
+            </section>
+        </main>
+        <script src="./src/js/index.js">
+        </script>
+</body>
+</html>
